@@ -1,0 +1,19 @@
+.header {
+  background-color: black;
+  color: white;
+  opacity: 60%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  padding: 0% 0% 0% 0%;
+  border: 1px solid whitesmoke;
+}
+
+body {
+  background-image: url(./pic/background.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
