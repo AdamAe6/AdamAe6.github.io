@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+  height: 400%;
 }
 
 .header {
@@ -53,4 +54,10 @@ body {
   width: 100%;
   background-color: aqua;
   bottom: -200%;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    font-size: small;
+  }
 }
