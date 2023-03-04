@@ -9,15 +9,3 @@ window.onscroll = function () {
     }
   }
 };
-
-window2.onscroll = function () {
-  var competenceElements = document.getElementsByClassName("competence");
-  for (var i = 0; i < competenceElements.length; i++) {
-    var competenceElement = competenceElements[i];
-    var elementPosition = competenceElement.getBoundingClientRect().top;
-    var screenPosition = window.innerHeight / 1.5;
-    if (elementPosition < screenPosition) {
-      competenceElement.style.opacity = "1";
-    }
-  }
-};
