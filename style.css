@@ -1,3 +1,11 @@
+body {
+  background-image: url(./pic/background.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   background-color: black;
   color: white;
@@ -10,10 +18,39 @@
   justify-content: space-around;
   padding: 0% 0% 0% 0%;
   border: 1px solid whitesmoke;
+  border-radius: 30px;
 }
 
-body {
-  background-image: url(./pic/background.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
+.competence {
+  background-color: aqua;
+  margin-top: 50%;
+  margin-bottom: 0%;
+  width: 50%;
+  color: white;
+  background-color: black;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  padding-left: 2%;
+  opacity: 0;
+}
+
+.competence2 {
+  background-color: aqua;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  width: 50%;
+  color: white;
+  background-color: black;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  padding-left: 2%;
+  opacity: 0;
+}
+
+.final {
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  background-color: aqua;
+  bottom: -200%;
 }
