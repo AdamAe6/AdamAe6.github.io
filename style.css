@@ -94,11 +94,11 @@ body {
 .final {
   display: flex;
   flex-direction: row;
-  color: white;
+  color: black;
   align-items: center;
   justify-content: center;
-  background-color: black;
-  border: 3px solid white;
+  background-color: white;
+  border: 3px solid black;
   border-radius: 30px;
 }
 
@@ -108,4 +108,8 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+}
+
+.mail {
+  color: white;
 }
