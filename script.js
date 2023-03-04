@@ -9,3 +9,13 @@ window.onscroll = function () {
     }
   }
 };
+
+window.addEventListener("scroll", function () {
+  var images = document.querySelectorAll(".resize");
+  for (var i = 0; i < images.length; i++) {
+    var image = images[i];
+    if (isElementInViewport(image)) {
+      image.classList.add("visible");
+    }
+  }
+});
