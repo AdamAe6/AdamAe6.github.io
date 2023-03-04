@@ -1,6 +1,6 @@
 body {
   background-image: url(./pic/background.png);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -23,7 +23,7 @@ body {
 }
 
 .competence {
-  margin-top: 30%;
+  margin-top: 40%;
   margin-bottom: 20%;
   color: white;
   width: 100%;
@@ -36,25 +36,16 @@ body {
 .competence2 {
   background-color: aqua;
   margin-top: 0%;
-  margin-bottom: 0%;
+  margin-bottom: 5%;
   width: 50%;
   color: white;
   background-color: black;
   border: 1px solid whitesmoke;
   border-radius: 10px;
   padding-left: 2%;
-  opacity: 0; /* masque initialement l'élément */
-  transform: translateX(-20px); /* décale l'élément vers la gauche */
+  opacity: 0;
+  transform: translateX(-20px);
   transition: opacity 0.5s ease, transform 0.1s ease;
-  /* définit la durée et le type d'animation */
-}
-
-.final {
-  position: absolute;
-  height: 10%;
-  width: 100%;
-  background-color: aqua;
-  bottom: -200%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -62,4 +53,22 @@ body {
     flex-direction: column;
     font-size: smaller;
   }
+}
+
+.projet {
+  height: 50%;
+  width: 100%;
+}
+
+.resize {
+  height: 50%;
+  width: 100%;
+  border: 2px solid white;
+}
+
+.presentationProjet {
+  text-align: center;
+  background-color: white;
+  border-radius: 30px;
+  border: 3px solid black;
 }
